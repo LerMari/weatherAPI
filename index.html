@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,8 +15,10 @@
         <img src="assets/sun.gif" id="sun">
         <h1>Get Current Weather</h1>
     </div>
-    <input type="number" placeholder="Enter zipcode" id="zipcode">
-    <button id="btn">Get Weather</button>
+    <div class="userinput">
+        <input type="number" placeholder="Enter zipcode" id="zipcode">
+        <button id="btn">Get Weather</button>
+    </div>
     <div id="results"></div>
     <script src="script.js"></script>
 </body>

@@ -17,6 +17,7 @@ body {
     margin: 80px;
     border-radius: 24px;
     padding: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -24,6 +25,14 @@ body {
     align-items: center;
     flex-direction: row-reverse;
     justify-content: space-around;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.userinput {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    flex-wrap: wrap;
 }
 
 #btn {
@@ -32,4 +41,13 @@ body {
     border: none;
     border-radius: 8px;
     padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    border: none;
+    border-radius: 8px;
+    height: 34px;
+    background-color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
 }
