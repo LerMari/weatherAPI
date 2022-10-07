@@ -32,7 +32,8 @@ function getForecast() {
         console.log(data.name);
         console.log(data.main.temp);
         console.log(data.weather[0].description);
-
-        results.innerHTML = `<h3>${data.name}</h3>`;
+        results.innerHTML = `<h3>City:</h3> ${data.name}`;
+        results.innerHTML += `<h3>Current Temperature:</h3> ${data.main.temp}&deg;F`;
+        results.innerHTML += `<h3>Condition:</h3> ${data.weather[0].description}`;
 })
 }
