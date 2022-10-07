@@ -8,6 +8,28 @@
     height: 100px;
 }
 
+html {
+    background-color: orange;
+}
+
 body {
     background-color: white;
+    margin: 80px;
+    border-radius: 24px;
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
 }
